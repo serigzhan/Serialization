@@ -1,5 +1,6 @@
 ﻿namespace Binary.Serialization;
 
+[Serializable]
 internal class Department(string name)
 {
 
