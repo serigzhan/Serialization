@@ -9,7 +9,7 @@ public class Department
     [XmlAttribute("name")]
     public string DepartmentName { get; set; }
 
-    [XmlElement("emplyees")]
+    [XmlArray("Employees")]
     public List<Employee> Employees { get; set; } = [];
 
     public Department () { }

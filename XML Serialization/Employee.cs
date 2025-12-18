@@ -2,12 +2,12 @@
 
 namespace XML.Serialization;
 
-[Serializable]
+[XmlType("Employee")]
 public class Employee
 {
 
-    [XmlAttribute("name")]
-    string EmployeeName { get; set; }
+    [XmlAttribute("name", DataType = "string")]
+    public string EmployeeName { get; set; }
 
     public Employee () { }
 
