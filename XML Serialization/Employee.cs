@@ -1,9 +1,8 @@
-﻿namespace Binary_Serialization
+﻿namespace JSON.Serialization;
+
+internal class Employee(string name)
 {
-    internal class Employee(string name)
-    {
 
-        string EmployeeName { get; set; } = name;
+    string EmployeeName { get; set; } = name;
 
-    }
 }

@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace XML.Serialization;
+
+public class Program
+{
+    static void Main()
+    {
+
+        Department department = new("Sales");
+
+        Employee employeeOne = new("Maks");
+        department.Add(employeeOne);
+
+        Employee employeeTwo = new("Jhon");
+        department.Add(employeeTwo);
+
+        Employee employeeThree = new("Sara");
+        department.Add(employeeThree);
+
+    }
+}
