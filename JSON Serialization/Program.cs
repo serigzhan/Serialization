@@ -1,8 +1,8 @@
-﻿namespace XML.Serialization;
+﻿namespace JSON.Serialization;
 
 public class Program
 {
-    static void Main()
+    public static void Main()
     {
 
         Department department = new("Sales");

@@ -1,6 +1,6 @@
-﻿namespace XML.Serialization;
+﻿namespace JSON.Serialization;
 
-internal class Employee(string name)
+public class Employee(string name)
 {
 
     string EmployeeName { get; set; } = name;

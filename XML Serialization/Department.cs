@@ -1,11 +1,25 @@
-﻿namespace JSON.Serialization;
+﻿using System.Xml.Serialization;
 
-internal class Department(string name)
+namespace XML.Serialization;
+
+[Serializable]
+public class Department
 {
 
-    public string DepartmentName { get; set; } = name;
+    [XmlAttribute("name")]
+    public string DepartmentName { get; set; }
 
+    [XmlElement("emplyees")]
     public List<Employee> Employees { get; set; } = [];
+
+    public Department () { }
+
+    public Department (string name)
+    {
+
+        DepartmentName = name;
+
+    }
 
     public void Add(Employee employee)
     {

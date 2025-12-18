@@ -1,8 +1,21 @@
-﻿namespace JSON.Serialization;
+﻿using System.Xml.Serialization;
 
-internal class Employee(string name)
+namespace XML.Serialization;
+
+[Serializable]
+public class Employee
 {
 
-    string EmployeeName { get; set; } = name;
+    [XmlAttribute("name")]
+    string EmployeeName { get; set; }
+
+    public Employee () { }
+
+    public Employee (string name)
+    {
+
+        EmployeeName = name;
+
+    }
 
 }
