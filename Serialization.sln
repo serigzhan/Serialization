@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML Serialization", "XML Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON Serialization", "JSON Serialization\JSON Serialization.csproj", "{4C299A29-2BA4-4C83-90CF-C36B9C68B97D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Serialization", "Custom Serialization\Custom Serialization.csproj", "{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{4C299A29-2BA4-4C83-90CF-C36B9C68B97D}.Release|x64.Build.0 = Release|Any CPU
 		{4C299A29-2BA4-4C83-90CF-C36B9C68B97D}.Release|x86.ActiveCfg = Release|Any CPU
 		{4C299A29-2BA4-4C83-90CF-C36B9C68B97D}.Release|x86.Build.0 = Release|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Debug|x64.Build.0 = Debug|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Debug|x86.Build.0 = Debug|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Release|x64.ActiveCfg = Release|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Release|x64.Build.0 = Release|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Release|x86.ActiveCfg = Release|Any CPU
+		{68D9E5DC-0288-46CE-8126-C1CFD8C80BE8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
