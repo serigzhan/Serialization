@@ -33,6 +33,7 @@ public class Program
             Department newDepartment = (Department)serializer.Deserialize(reader);
 
             Console.WriteLine("New department name: {0}", newDepartment.DepartmentName);
+            Console.WriteLine("New first employee name: {0}", newDepartment.Employees[0].EmployeeName);
 
         }
 

@@ -1,10 +1,15 @@
-﻿namespace JSON.Serialization;
+﻿using System.Text.Json.Serialization;
 
-public class Department(string name)
+namespace JSON.Serialization;
+
+[Serializable]
+public class Department(string DepartmentName)
 {
 
-    public string DepartmentName { get; set; } = name;
+    [JsonPropertyName("name")]
+    public string DepartmentName { get; set; } = DepartmentName;
 
+    [JsonPropertyName("employees")]
     public List<Employee> Employees { get; set; } = [];
 
     public void Add(Employee employee)

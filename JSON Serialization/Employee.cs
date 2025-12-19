@@ -1,8 +1,12 @@
-﻿namespace JSON.Serialization;
+﻿using System.Text.Json.Serialization;
 
-public class Employee(string name)
+namespace JSON.Serialization;
+
+[Serializable]
+public class Employee(string EmployeeName)
 {
 
-    string EmployeeName { get; set; } = name;
+    [JsonPropertyName("name")]
+    public string EmployeeName { get; set; } = EmployeeName;
 
 }
